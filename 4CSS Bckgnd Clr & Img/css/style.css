@@ -67,6 +67,7 @@ a:active {
 }
 /** Q: How do you get image to repeat horizontally?**/
 /** A: background-repeat: repeat-x**/
+/** Syntax for shorthand is ( COLOR, SOURCE, REPEAT, POSITION, SIZE )**/
 .title {
   color: white;
   font-size: 1.625rem; /* 26px/16px */
