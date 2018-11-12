@@ -91,8 +91,9 @@ a:active {
 	padding-top: 80px;
 	padding-bottom: 70px;
   border-bottom: 2px solid #dfe2e6;
+  overflow: auto;
 }
-
+/**  This overflow property will clear floats, but not as recommended**/
 .callout {
   font-size: 1.25em;
   border-bottom: 3px solid;
