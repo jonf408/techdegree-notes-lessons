@@ -1,4 +1,5 @@
 /** We will start out by learning more about the universal selector**/
-* {
- 
+p {
+ color: white;
+ background-color: lightblue;
 }
