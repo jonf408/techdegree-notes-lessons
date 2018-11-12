@@ -1,5 +1,24 @@
 /** We will start out by learning more about the universal selector**/
-p {
- color: white;
- background-color: lightblue;
+
+header {
+
+}
+
+h1 {
+  font-size: 90px;
+  color: white;
+}
+
+h2 {
+  font-size: 53px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #48525c;
+}
+
+body {
+  color: #878787;
+  margin: 0;
 }
