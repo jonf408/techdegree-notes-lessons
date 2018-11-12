@@ -66,6 +66,7 @@ a:active {
     lightcoral;
 }
 
+/** Focus element will only target interactive elements like links**/
 a:focus {
   color: white;
   background-color: orange;
