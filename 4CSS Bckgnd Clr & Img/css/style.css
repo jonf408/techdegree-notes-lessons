@@ -65,7 +65,8 @@ a:active {
   background-image: url('../img/mountains.jpg');
   background-size: 40%;
 }
-
+/** Q: How do you get image to repeat horizontally?**/
+/** A: background-repeat: repeat-x**/
 .title {
   color: white;
   font-size: 1.625rem; /* 26px/16px */
