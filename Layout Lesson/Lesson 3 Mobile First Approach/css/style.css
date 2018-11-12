@@ -11,6 +11,9 @@ body {
 /**  1st ADD width
 		 2nd ADD margin
 		 **/
+
+/** Q: Why do Vertical Margins collapse?
+		A: Normal for margins to overlap **/		 
 a {
 	color: #fff;
 	text-decoration: none;
