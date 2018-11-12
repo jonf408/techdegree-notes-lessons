@@ -62,9 +62,8 @@ a:active {
   background-color: #ffa949;
   padding-top: 170px;
   height: 850px;
-  background-image: url('../img/mountains.jpg');
-  background-size: cover;
-  background-position: center;
+
+  background: #ffa949 url('../img/mountains.jpg') no-repeat center / cover;
 }
 /** Q: How do you get image to repeat horizontally?**/
 /** A: background-repeat: repeat-x**/
