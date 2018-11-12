@@ -61,3 +61,12 @@ a:visted {
 a:hover {
   forestgreen;
 }
+
+a:active {
+    lightcoral;
+}
+
+a:focus {
+  color: white;
+  background-color: orange;
+}
