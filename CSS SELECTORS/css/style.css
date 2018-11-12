@@ -1,7 +1,7 @@
 /** We will start out by learning more about the universal selector**/
 
 header {
-
+ background-color: orange;
 }
 
 h1 {
@@ -21,4 +21,8 @@ h3 {
 body {
   color: #878787;
   margin: 0;
+}
+
+#primary-content {
+  border: 3px solid red;
 }
