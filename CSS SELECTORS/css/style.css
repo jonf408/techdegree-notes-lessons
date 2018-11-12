@@ -32,3 +32,7 @@ body {
   padding-bottom: 60px;
   border-bottom: solid 10px orange;
 }
+
+.t-border {
+  border-top: 2px solid blue;
+}
