@@ -6,8 +6,11 @@ body {
 	line-height: 1.6;
 	color: #3a3a3a;
 	width: 70%
+	margin: auto;
 }
-
+/**  1st ADD width
+		 2nd ADD margin
+		 **/
 a {
 	color: #fff;
 	text-decoration: none;
