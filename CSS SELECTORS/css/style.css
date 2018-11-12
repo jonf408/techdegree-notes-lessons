@@ -1,4 +1,6 @@
 /** We will start out by learning more about the universal selector**/
 * {
-
+  margin: 0;
+  padding: 0;
+  color: red; 
 }
