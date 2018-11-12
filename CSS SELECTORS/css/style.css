@@ -49,7 +49,7 @@ body {
 }
 
 /** Psuedo Classes**/
-
+/** This will style all unvisted links**/
 a:link {
   orange;
 }
