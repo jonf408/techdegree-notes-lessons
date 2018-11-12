@@ -1,7 +1,18 @@
 /** We will start out by learning more about the universal selector**/
 /** ID Selectors have more weight than class selectors**/
+header span {
+  color: white;
+  font-size: 26px;
+}
+
 header {
  background-color: orange;
+}
+
+ol li {
+  background-color: tomato;
+  color: white;
+  margin-bottom: 5px;
 }
 
 h1 {
