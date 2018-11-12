@@ -138,7 +138,10 @@ a:active {
 
 /* Floated Columns ------------------ */
 
-
+.resorts,
+.tips {
+  width: 46.5%;
+}
 
 
 
