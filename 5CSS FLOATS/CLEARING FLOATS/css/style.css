@@ -10,7 +10,7 @@ body {
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1 {  
+h1 {
   font-size: 5.625rem; /* 90px/16px  */
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
@@ -73,7 +73,7 @@ a:active {
 
 .intro {
   font-size: 1.25em; /* 20px/16px */
-  line-height: 1.6;  
+  line-height: 1.6;
 }
 
 .primary-content,
@@ -113,7 +113,7 @@ a:active {
 
 /* Layout Styles ------------------ */
 
-.primary-content, 
+.primary-content,
 .secondary-content {
   width: 75%;
   padding-left: 50px;
@@ -151,7 +151,8 @@ a:active {
   float: left;
 }
 
-
+/** Q: What is one way of preventing a floated column from collapsing**/
+/** A: By using overflow property**/
 
 
 
