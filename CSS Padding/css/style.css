@@ -88,4 +88,12 @@ a:active {
 .wildlife {
   color: white;
   background-color: #434a52;
+
+  padding-top: 100px;
+  padding-right: 120px;
+  padding-bottom: 100px;
+  padding-left: 120px;
+
+  padding: 100px 120px 100px 120px;
 }
+/** above is a way to seperate out the padding values by themselves, or group them into one value**/
