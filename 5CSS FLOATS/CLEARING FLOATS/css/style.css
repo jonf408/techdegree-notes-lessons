@@ -163,3 +163,5 @@ a:active {
   display: table;
   clear: both;
 }
+
+/**  If you want any content cleare, just give class of .group**/
