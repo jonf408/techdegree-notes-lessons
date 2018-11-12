@@ -1,5 +1,5 @@
 /** We will start out by learning more about the universal selector**/
-
+/** ID Selectors have more weight than class selectors**/
 header {
  background-color: orange;
 }
