@@ -106,9 +106,11 @@ a {
 	.feat-img {
 		width: 300px;
 		float: left;
-		margin-top: 25px;
+		margin-top: 5px;
 		margin-right: 10px;
 		margin-bottom: 25px;
+		padding: 10px;
+		border: solid black 1px;
 	}
 
 }
