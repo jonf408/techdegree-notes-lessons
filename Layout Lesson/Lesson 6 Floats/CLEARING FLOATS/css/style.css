@@ -81,7 +81,7 @@ a {
 	margin-bottom: 30px;
 	overflow: hidden;
 }
-/** In order to clear a float, use the OVERFLOW property, value, hidden or auto**/
+/** In order to clear a float, use the OVERFLOW property, value, hidden or auto, but not IDEAL!!**/
 .main-footer {
 	text-align: center;
 	padding: 2em 0;
