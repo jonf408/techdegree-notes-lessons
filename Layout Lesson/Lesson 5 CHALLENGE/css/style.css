@@ -118,7 +118,11 @@ a {
 
 	/* ---- Columns ---- */
 
+/** First add .col rule and float colums left**/
 
+	.col {
+		float: left;
+	}
 
 	/* ------------- */
 
@@ -139,12 +143,12 @@ a {
 	}
 
 	.primary {
-		width; 55%;
+		width; 60%;
 		float: right;
 	}
 
 	.secondary {
-		width: 45%;
+		width: 40%;
 		float: left;
 	}
 
