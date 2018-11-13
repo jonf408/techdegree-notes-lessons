@@ -127,4 +127,12 @@ a {
 		border: solid 1px #d9e4ea;
 	}
 
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+/** This is the most efficient way to clear floats. One rule in CSS, and whenever you need to
+		clear a float, just add the class name to any element that needs clearing. **/
 }
