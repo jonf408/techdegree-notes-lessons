@@ -117,10 +117,12 @@ a {
 		margin-right: 12px;
 	}
 
-	col{
+	col {
 		width: 50%;
 		display: inline-block;
 		margin-right: -4px;
+		vertical-align: top;
+		background: red;
 	}
 }
 
