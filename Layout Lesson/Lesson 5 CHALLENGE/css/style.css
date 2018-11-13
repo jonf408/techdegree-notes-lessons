@@ -122,8 +122,10 @@ a {
 
 	.col {
 		float: left;
+		padding-left: 1em;
+		padding-right: 1em;
 	}
-
+/**  In order to give the page a more aesthetic look, add padding left and right. */
 	/* ------------- */
 
 	.feat-img {
