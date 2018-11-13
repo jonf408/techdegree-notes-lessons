@@ -101,5 +101,5 @@ a {
 	.main-nav li {
 		display: inline;
 	}
-
+/** block element that flows with surrounding content is INLINE-BLOCK**/
 }
