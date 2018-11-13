@@ -97,8 +97,9 @@ a {
 	}
 
 	.name,
+	.main-nav,
 	.main-nav li {
-		display: inline;		
+		display: inline;
 	}
 
 }
