@@ -1,4 +1,4 @@
-/* ================================= 
+/* =================================
   Base Styles
 ==================================== */
 
@@ -32,7 +32,7 @@ a {
 	text-decoration: none;
 }
 
-/* ================================= 
+/* =================================
   Base Layout Styles
 ==================================== */
 
@@ -62,7 +62,7 @@ a {
 		color: #3acec2;
 		text-transform: uppercase;
 	}
-	
+
 	.main-nav a:hover {
 		color: #093a58;
 	}
@@ -87,7 +87,7 @@ a {
 	background: #d9e4ea;
 }
 
-/* ================================= 
+/* =================================
   Media Queries
 ==================================== */
 
@@ -105,7 +105,11 @@ a {
 
 	.feat-img {
 		width: 300px;
-
+		float: left;
+		margin-top: 25px;
+		margin-right: 10px;
+		margin-bottom: 25px;
 	}
 
 }
+/** First, float the image. Then add white space by using margins on image**/
