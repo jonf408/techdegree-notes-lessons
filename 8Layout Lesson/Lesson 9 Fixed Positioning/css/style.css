@@ -144,6 +144,10 @@ figcaption {
 
 @media (min-width: 769px) {
 
+	body {
+		padding-top: 68px;
+	}
+
 	.main-header {
 		position: fixed;
 		background: #fff;
