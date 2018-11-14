@@ -42,10 +42,11 @@ img {
 }
 
 figure {
-	position: relative;
-	/**  This is the 2ND STEP  **/
 	margin: 0;
 	line-height: 0;
+
+	position: relative;
+	/**  This is the 2ND STEP  **/
 }
 
 figcaption {
