@@ -50,12 +50,16 @@ figure {
 
 figcaption {
 	/**  This is the 1ST STEP  **/
-	position: absolute;
 	font-size: .9em;
 	line-height: 1.5;
 	color: #fff;
 	padding: 1em;
 	background: rgba(19,43,102, .85);
+
+	/**  This is the 1ST STEP  **/
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 /* =================================
