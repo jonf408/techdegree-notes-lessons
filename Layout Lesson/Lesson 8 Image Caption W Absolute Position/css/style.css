@@ -1,4 +1,4 @@
-/* ================================= 
+/* =================================
   Base Element Styles
 ==================================== */
 
@@ -42,19 +42,23 @@ img {
 }
 
 figure {
+	position: relative;
+	/**  This is the 2ND STEP  **/
 	margin: 0;
 	line-height: 0;
 }
 
 figcaption {
+	/**  This is the 1ST STEP  **/
+	position: absolute;
 	font-size: .9em;
 	line-height: 1.5;
 	color: #fff;
-	padding: 1em;	
+	padding: 1em;
 	background: rgba(19,43,102, .85);
 }
 
-/* ================================= 
+/* =================================
   Base Layout Styles
 ==================================== */
 
@@ -75,7 +79,7 @@ figcaption {
 		text-align: center;
 		padding: 10px 15px;
 	}
-	
+
 	.main-nav a {
 		font-size: .95em;
 		color: #3acec2;
@@ -126,7 +130,7 @@ figcaption {
 	margin-bottom: 0;
 }
 
-/* ================================= 
+/* =================================
   Media Queries
 ==================================== */
 
@@ -171,7 +175,7 @@ figcaption {
 }
 
 @media (min-width: 1025px) {
-	
+
 	.container {
 		width: 80%;
 		max-width: 1150px;
