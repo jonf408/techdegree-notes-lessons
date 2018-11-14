@@ -1,4 +1,4 @@
-/* ================================= 
+/* =================================
   Base Element Styles
 ==================================== */
 
@@ -51,15 +51,15 @@ figcaption {
 	font-size: .9em;
 	line-height: 1.5;
 	color: #fff;
-	padding: 1em;	
+	padding: 1em;
 	background: rgba(19,43,102, .85);
-	
+
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 }
 
-/* ================================= 
+/* =================================
   Base Layout Styles
 ==================================== */
 
@@ -80,7 +80,7 @@ figcaption {
 		text-align: center;
 		padding: 10px 15px;
 	}
-	
+
 	.main-nav a {
 		font-size: .95em;
 		color: #3acec2;
@@ -138,11 +138,17 @@ figcaption {
 	right: -15px;
 }
 
-/* ================================= 
+/* =================================
   Media Queries
 ==================================== */
 
 @media (min-width: 769px) {
+
+	.main-header {
+		position: fixed;
+		background: #fff;
+		box-shadow: (0, 0, 0, .4);
+	}
 
 	.container {
 		width: 90%;
@@ -183,7 +189,7 @@ figcaption {
 }
 
 @media (min-width: 1025px) {
-	
+
 	.container {
 		width: 80%;
 		max-width: 1150px;
