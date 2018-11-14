@@ -135,6 +135,15 @@ figcaption {
 	margin-bottom: 0;
 }
 
+.icon-location {
+	width: 35px;
+	/*  This is first step*/
+	position: absolute;
+	/*  This is second step*/
+	top: -50px;
+	left: -50px;
+}
+
 /* =================================
   Media Queries
 ==================================== */
