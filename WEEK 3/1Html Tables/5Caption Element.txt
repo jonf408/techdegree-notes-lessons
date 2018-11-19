@@ -1,0 +1,11 @@
+Caption Element is good for screen readers. 
+
+	Directly after opening table tag
+
+		<caption>Employee Information</caption>
+
+
+
+Rendering inconsistencies persist in html emails
+
+Tables are used for tabular data 

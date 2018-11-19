@@ -1,0 +1,4 @@
+Make sure to put the table footer directly after the <thead> tag.
+
+Also, in order to set width of footer, use colspan attribute. 
+

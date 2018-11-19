@@ -1,0 +1,20 @@
+FORM ELEMENT
+
+	This element wraps all other elements that will be used for the form. 
+
+
+	<form></form>
+
+	
+		CANNOT HAVE FORMS NESTED WITHIN OTHER FORMS
+
+	
+	<action> attribute
+
+		
+		IN THIS CASE, BECAUSE WE ARE NOT SUBMITTING TO A SERVER, WE JUST 
+		USE THE ROOT FILE OF "INDEX.HTML"
+
+	<method> attribute
+
+		IN THIS CASE USE THE VALUE "POST" or "GET"
