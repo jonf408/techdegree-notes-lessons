@@ -1,0 +1,31 @@
+When using a table, make sure to have the correct items listed as header items
+
+
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Email</th>
+		<th>Job-role</th>
+	</tr>
+</table>
+
+
+
+In order to correctly organize the information on the screen, especially for 
+screen readers and crawlers, label the first column/name column with a header tag <th>
+
+
+Once the first column or row is assigned, the browser needs to know exactly what 
+that element is. 
+
+	
+In order to do that, use the "scope" attribute 
+
+<table>
+	<tr>
+		<th scope="col">Name</th>
+		<th scope="col">Email</th>
+		<th scope="col">Job-role</th>
+	</tr>
+</table>
+
