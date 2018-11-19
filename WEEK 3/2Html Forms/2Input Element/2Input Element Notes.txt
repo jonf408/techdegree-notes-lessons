@@ -1,0 +1,34 @@
+FIRST PROVIDE HEADER FOR FORM
+
+	<form action="index.html" method="post">
+		
+		<h1>Sign Up</h1>
+
+		<input type="text" id="name" name="user_name">	
+	
+	<form>
+
+
+	
+		REMEMEBER THAT INPUT ELEMENT IS A SELF-CLOSING TAG
+
+	
+		INPUT HAS 3 ATTRIBUTES APPLIED TO IT 
+
+
+			1 - TYPE
+			2 - ID 
+			3 - NAME 
+
+
+		WHEN ORGANIZING THESE FORMS, SOME OF THE ATTRIBUTES/TAGS WILL 
+		HAVE OVERLAPPING LABELS SUCH AS name or email, BUT THAT IS 
+		PURELY COINCIDENTAL
+
+
+		<input type="email" id="mail" name="user_email">
+		<input type="password" id="password" name="user_password">
+
+
+		
+		THERE ARE MANY TYPE ATTRIBUTES THAT CAN BE APPLIED TO THE INPUT TAG

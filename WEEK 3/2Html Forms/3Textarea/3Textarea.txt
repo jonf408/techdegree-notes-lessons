@@ -1,0 +1,2 @@
+<textarea> 	does not need a type attribute because it needs a closing bracket
+</textarea>
