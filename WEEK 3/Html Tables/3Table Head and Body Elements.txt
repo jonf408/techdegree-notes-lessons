@@ -1,0 +1,45 @@
+There is a difference between the <th> tag, which is a child tag, and 
+a <thead> tag, which is actually a mother tag. 
+
+<th> - child tag, nested
+<thead> - mother tag 
+<tbody> - mother tag
+
+
+By grouping text in either a thead, or tbody tag, we can organize everything
+very well 
+
+
+
+<table>
+	<thead>
+	</thead>
+
+	<tbody>
+	</tobody>
+</table>
+
+
+After all is said and done, a table footer can be applied, BUT!! it must be placed directly after <thead> and directly before <tfoot>
+
+
+<table>
+	<thead>
+	</thead>
+
+	<tfoot>
+		<tr>
+			<td>This section will appear under the table as a note.</td> 		
+		</tr>
+	</tfoot>
+
+	<tbody> 
+	</tbody>
+
+
+Q: What does colspan do?
+
+	A: colspan allows you to designate how much space the table footer will take
+	   up underneath the table. A setting of one will only allow the text 
+	   to only take up the space under one row. A colspan of 3 will make the 
+	   text take up all of the space possible underneath the entire table. 
