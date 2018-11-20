@@ -1,0 +1,14 @@
+Once form is filled out, submit button will be what contacts server in order to submit data. 
+
+<button type="submit">Sign Up</button>
+
+The button type is submit because that is what sends the data to the server. For now,
+it won't work, but at least we know how it works. 
+
+	
+
+	BUTTON TYPES 
+
+		    1 : SUBMIT
+		    2 : RESET
+		    3 : BUTTON
