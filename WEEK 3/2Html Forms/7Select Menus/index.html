@@ -11,45 +11,52 @@
     <body>
 
       <form action="index.html" method="post">
-        
+
         <h1>Sign Up</h1>
-        
+
         <fieldset>
-          
+
           <legend><span class="number">1</span> Your basic info</legend>
-          
+
           <label for="name">Name:</label>
           <input type="text" id="name" name="user_name">
-          
+
           <label for="mail">Email:</label>
           <input type="email" id="mail" name="user_email">
-          
+
           <label for="password">Password:</label>
           <input type="password" id="password" name="user_password">
-        
+
         </fieldset>
-        
+
         <fieldset>
-          
+
           <legend><span class="number">2</span> Your profile</legend>
-          
+
           <label for="bio">Biography:</label>
           <textarea id="bio" name="user_bio"></textarea>
-        
+
+          <label for="job">Job Role</label>
+            <select id="job">User Job</select>
+              <optgroup label="Web">
+                <option value="frontend_developer">Front-End Developer</option>
+                <option value="php_developer">PHP Developer</option>
+                <option value="python_developer">Python Developer</option>
+                <option value="web_designer">Web Designer</option>
+              </optgroup>
+              <optgroup>
+                <option value="frontend_developer">Front-End Developer</option>
+                <option value="frontend_developer">Front-End Developer</option>
+                <option value="frontend_developer">Front-End Developer</option>
+            </optgroup>
+            </select>
+
+
         </fieldset>
-          
+
         <button type="submit">Sign Up</button>
-        
+
       </form>
-      
+
     </body>
 </html>
-
-
-
-
-
-
-
-
-
