@@ -1,0 +1,18 @@
+When setting up all of the buttons, the form landing space will be blank. 
+By using the label element, we can write words in the boxes themselves. 
+
+
+
+	<form action="index.html" method="post">
+	
+		<h1>Sign Up</h1>
+
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="user_name">
+
+
+		BASED OFF OF WHAT I CAN TELL, THE LABEL ASSIGNED WILL MODIFY THE 
+		ID TAG
+
+		IN ADDITION, MAKE SURE TO ORDER THE TEXT CORRECTLY AND IT WILL 
+		CASCADE BASED OFF OF ITS POSITION. 
