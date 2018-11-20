@@ -1,0 +1,33 @@
+If you want to group information or data at any point within a table, use the fieldset attribute to do so. 
+
+<fieldset>
+	<name>
+	<email>
+	<password>
+</fieldset>
+
+
+BY GROUPING THE DATA TOGETHER IN A GROUP SET, WE CAN EXPORT THAT CHUNK OF DATA 
+AS A GROUP BY USING THE LEGEND ATTRIBUTE 
+
+
+
+<fieldset>
+
+	<legend><span class="number">2</span> Your profile</legend>	
+
+	<label>
+	<input>
+
+	<label>
+	<input>
+
+	<label>
+	<input>
+
+</fieldset>
+
+
+Q: Why would we use the legend attribute?
+	A: In order to organize infomation better. 
+	B: Allows more of a clear path for them to follow. 
