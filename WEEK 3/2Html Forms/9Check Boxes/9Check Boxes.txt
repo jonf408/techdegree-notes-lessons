@@ -1,0 +1,17 @@
+1 <label> your group, or mother tag
+
+2 <input> type will be "checkbox"
+
+3 id attribute
+
+4 value attribute
+
+5 name attribute
+
+6 <label> element
+
+7  for attribute
+
+8 class atribute
+
+9 <br>
