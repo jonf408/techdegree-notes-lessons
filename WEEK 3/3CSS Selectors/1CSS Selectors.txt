@@ -1,0 +1,4 @@
+We are actually getting into attribute selectors.
+In this case, we will be specifically targeting
+the attributes of elements, and using that to modify
+their appearence.

@@ -1,2 +1,10 @@
 /* Attribute Selectors ------------- */
 
+[class] {
+  col
+}
+
+/*  In this case, since we are using the attribute
+as the selector, we use brackets and enclose the
+attribute in question with them, while putting curly
+braces around the objects we are modifying*/
