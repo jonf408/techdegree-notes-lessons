@@ -1,0 +1,91 @@
+Getting Started with CSS
+
+Q: What is the latest evolution of CSS
+	A: CSS3
+
+Q: When was CSS introduced?
+	A: HTML 4.0
+
+
+Different Styles
+
+	AUTHOR STYLES
+	
+		INLINE - style
+		INTERNAL
+		EXTERNAL
+
+	
+	INLINE STYLES - OVERRIDE INTERNAL STYLES 
+
+		this is written directly in the html as a style attribute 
+
+CSS CASCADE
+	priority list will take precedent over certain styles based on its author 	style
+
+HEIRARCHY
+
+	01 INLINE STYLES IS HIGHEST-lives within html code and attached directly to element. 
+	02 ID's 
+	03 CLASSES AND ATTRIBUTES: 		
+	04 ELEMENTS AND PSEUDO-ELEMENTS 
+	
+	INTERNAL STYLES
+
+		DEFINED USING STYLE ATTRIBUTE 
+		embedded within <head> tag
+		<style>
+		   p {
+			font-size: 20px;
+			font-weight: bold;
+		}
+		   h1 {	
+			font-size: 90px;
+			color: firebrick;
+		}
+		</style>
+
+	
+	This type of style sheet requires broswer to download the info everytime a page is downloaded. sucks up data. 
+
+
+EXTERNAL STYLE SHEET
+
+	Step 1: create new stylesheet: style.css
+	Step 2: <link rel="stylesheet" href="css/style.css">
+		important that this says "stylesheet" not "stylesheets" with an s
+	Step 3: update stylesheet 
+
+	Q: What is the benefit of using an external stylesheet, and having that style sheet nested within head tag?
+		A: Allows browser to cache stylesheet before content to keep page loading times down. 
+
+
+Q: What is the @import function used for?
+	A: can be used to import styles from other sheets 
+
+		<style>
+			@import "css/styles.css"
+		</style>
+	
+	B: Allows stylesheet to be cached, and helps with maintenence efficiency 
+
+Q: What tag do you use for inline styles?
+	A: style 
+
+Q: For internal styles, what tag do you use?
+	A: <style></style>
+
+Q: Which method allows us to bring one or more style sheets into another style sheet?
+	A: @import
+Q: What file extension do you use when creating a style sheet?
+	A: .css 
+Q: What attribute specifies the relationship between the current HTML document and the
+	linked document?
+	A: rel 
+Q: What is a downside to using internal styles on large projects?
+	A: browser has to download all styles
+	B: duplicating many styles across multiple pages 
+Q: With an external style sheet, we can change the look of an entire website with one 	file.
+	A: external style sheet 
+
+	inline internal external	
